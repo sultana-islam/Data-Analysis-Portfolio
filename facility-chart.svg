@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa" />
+  
+  <!-- Chart Title -->
+  <text x="300" y="30" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">Distribution of Park Facility Types</text>
+  <text x="300" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">City of Vancouver Parks Analysis</text>
+  
+  <!-- Y-Axis -->
+  <line x1="80" y1="70" x2="80" y2="350" stroke="#333" stroke-width="2" />
+  <text x="40" y="210" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90, 40, 210)">Number of Facilities</text>
+  
+  <!-- Y-Axis Ticks and Labels -->
+  <line x1="75" y1="350" x2="80" y2="350" stroke="#333" stroke-width="2" />
+  <text x="70" y="355" font-family="Arial" font-size="12" text-anchor="end">0</text>
+  
+  <line x1="75" y1="290" x2="80" y2="290" stroke="#333" stroke-width="2" />
+  <text x="70" y="295" font-family="Arial" font-size="12" text-anchor="end">20</text>
+  
+  <line x1="75" y1="230" x2="80" y2="230" stroke="#333" stroke-width="2" />
+  <text x="70" y="235" font-family="Arial" font-size="12" text-anchor="end">40</text>
+  
+  <line x1="75" y1="170" x2="80" y2="170" stroke="#333" stroke-width="2" />
+  <text x="70" y="175" font-family="Arial" font-size="12" text-anchor="end">60</text>
+  
+  <line x1="75" y1="110" x2="80" y2="110" stroke="#333" stroke-width="2" />
+  <text x="70" y="115" font-family="Arial" font-size="12" text-anchor="end">80</text>
+  
+  <!-- X-Axis -->
+  <line x1="80" y1="350" x2="560" y2="350" stroke="#333" stroke-width="2" />
+  <text x="320" y="385" font-family="Arial" font-size="14" text-anchor="middle">Facility Type</text>
+  
+  <!-- Bars -->
+  <!-- Playgrounds -->
+  <rect x="100" y="110" width="60" height="240" fill="#4e79a7" />
+  <text x="130" y="370" font-family="Arial" font-size="12" text-anchor="middle">Playgrounds</text>
+  <text x="130" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">78</text>
+  
+  <!-- Sports Fields -->
+  <rect x="180" y="150" width="60" height="200" fill="#f28e2c" />
+  <text x="210" y="370" font-family="Arial" font-size="12" text-anchor="middle">Sports Fields</text>
+  <text x="210" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">67</text>
+  
+  <!-- Washrooms -->
+  <rect x="260" y="170" width="60" height="180" fill="#e15759" />
+  <text x="290" y="370" font-family="Arial" font-size="12" text-anchor="middle">Washrooms</text>
+  <text x="290" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">60</text>
+  
+  <!-- Picnic Areas -->
+  <rect x="340" y="200" width="60" height="150" fill="#76b7b2" />
+  <text x="370" y="370" font-family="Arial" font-size="12" text-anchor="middle">Picnic Areas</text>
+  <text x="370" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">50</text>
+  
+  <!-- Walking Paths -->
+  <rect x="420" y="230" width="60" height="120" fill="#59a14f" />
+  <text x="450" y="370" font-family="Arial" font-size="12" text-anchor="middle">Walking Paths</text>
+  <text x="450" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">40</text>
+  
+  <!-- Tennis Courts -->
+  <rect x="500" y="260" width="60" height="90" fill="#edc949" />
+  <text x="530" y="370" font-family="Arial" font-size="12" text-anchor="middle">Tennis Courts</text>
+  <text x="530" y="255" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">30</text>
+  
+  <!-- Legend -->
+  <rect x="400" y="60" width="180" height="30" fill="#f8f9fa" stroke="#ddd" />
+  <text x="490" y="80" font-family="Arial" font-size="12" text-anchor="middle">Sample Data Visualization</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#f8f9fa" />
+  
+  <!-- Chart Title -->
+  <text x="250" y="30" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Distribution of Park Facility Types</text>
+  <text x="250" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">Percentage Breakdown</text>
+  
+  <!-- Pie Chart -->
+  <!-- Playgrounds: 25% -->
+  <path d="M 250 200 L 250 100 A 100 100 0 0 1 339.7 162.5 Z" fill="#4e79a7" />
+  
+  <!-- Sports Fields: 20% -->
+  <path d="M 250 200 L 339.7 162.5 A 100 100 0 0 1 327.8 286.7 Z" fill="#f28e2c" />
+  
+  <!-- Washrooms: 18% -->
+  <path d="M 250 200 L 327.8 286.7 A 100 100 0 0 1 210.7 294.7 Z" fill="#e15759" />
+  
+  <!-- Picnic Areas: 15% -->
+  <path d="M 250 200 L 210.7 294.7 A 100 100 0 0 1 159.2 236.3 Z" fill="#76b7b2" />
+  
+  <!-- Walking Paths: 12% -->
+  <path d="M 250 200 L 159.2 236.3 A 100 100 0 0 1 160.3 137.5 Z" fill="#59a14f" />
+  
+  <!-- Tennis Courts: 10% -->
+  <path d="M 250 200 L 160.3 137.5 A 100 100 0 0 1 250 100 Z" fill="#edc949" />
+  
+  <!-- Legend -->
+  <rect x="350" y="120" width="15" height="15" fill="#4e79a7" />
+  <text x="375" y="133" font-family="Arial" font-size="12" text-anchor="start">Playgrounds (25%)</text>
+  
+  <rect x="350" y="145" width="15" height="15" fill="#f28e2c" />
+  <text x="375" y="158" font-family="Arial" font-size="12" text-anchor="start">Sports Fields (20%)</text>
+  
+  <rect x="350" y="170" width="15" height="15" fill="#e15759" />
+  <text x="375" y="183" font-family="Arial" font-size="12" text-anchor="start">Washrooms (18%)</text>
+  
+  <rect x="350" y="195" width="15" height="15" fill="#76b7b2" />
+  <text x="375" y="208" font-family="Arial" font-size="12" text-anchor="start">Picnic Areas (15%)</text>
+  
+  <rect x="350" y="220" width="15" height="15" fill="#59a14f" />
+  <text x="375" y="233" font-family="Arial" font-size="12" text-anchor="start">Walking Paths (12%)</text>
+  
+  <rect x="350" y="245" width="15" height="15" fill="#edc949" />
+  <text x="375" y="258" font-family="Arial" font-size="12" text-anchor="start">Tennis Courts (10%)</text>
+  
+  <!-- Notes -->
+  <text x="250" y="350" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic">Based on analysis of Vancouver Park Facilities data</text>
+</svg>

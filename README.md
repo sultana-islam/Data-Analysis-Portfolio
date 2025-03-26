@@ -1,75 +1,133 @@
-# GitHub Portfolio Setup Instructions
+# Data Analysis Portfolio
 
-Follow these step-by-step instructions to set up your GitHub portfolio:
+## About Me
+Hello! I'm Jakiya Sultana Ratri, a data analyst passionate about transforming raw data into meaningful insights. This portfolio showcases the projects I've completed during my Cloud Computing course.
 
-## 1. Create a Repository
+## Skills
+- **Data Analysis**: Exploratory Data Analysis, Descriptive Analysis, Diagnostic Analysis
+- **Data Wrangling**: Data cleaning, transformation, and validation
+- **Data Quality Control**: Implementation of data quality frameworks
+- **Tools**: AWS services, Python, SQL, Data visualization tools
 
-1. Log in to your GitHub account (using islamsultana920@gmail.com)
-2. Click on the "+" icon in the top right corner and select "New repository"
-3. Name your repository: `data-analyst-portfolio`
-4. Add a description: "Portfolio showcasing my data analysis projects from Cloud Computing course"
-5. Make it Public
-6. Check "Add a README file"
-7. Click "Create repository"
+## Projects
 
-## 2. Set Up Your README File
+### 1. City of Vancouver Park Facilities Analysis
 
-1. In your new repository, click on the README.md file
-2. Click the pencil icon (Edit this file)
-3. Delete any existing content
-4. Copy and paste the entire content from the GitHub Portfolio README.md I provided
-5. Click "Commit changes" (you can add a commit message like "Initial portfolio setup")
+#### Project Type: Exploratory Data Analysis
+**Objective**: Analyze park facilities data from the City of Vancouver to identify patterns and trends in facility distribution across parks.
 
-## 3. Upload AWS Academy Badge
+**Dataset**: The dataset contains information about various park facilities in Vancouver, including:
+- Park ID
+- Park Name
+- Facility Type
+- Facility Count
+- Facility URL
 
-1. Download the AWS Academy Cloud Foundations badge image from Image 2 in your documents
-2. In your GitHub repository, click "Add file" and select "Upload files"
-3. Drag and drop or select the AWS badge image
-4. Name it "aws-academy-badge.png"
-5. Add a commit message like "Add AWS Academy badge"
-6. Click "Commit changes"
+**Methodology**:
+1. **Data Collection and Preparation**:
+   - Loaded the Park Facilities dataset
+   - Cleaned the data by handling missing values and standardizing formats
+   - Validated data integrity and consistency
 
-## 4. Create Project Documentation Files (Optional but Recommended)
+2. **Descriptive Statistics**:
+   - Generated summary statistics for numerical features
+   - Created frequency distributions for categorical features like facility types
 
-For a more comprehensive portfolio, consider creating additional files for each project:
+3. **Data Visualization**:
+   - Visualized facility distribution across parks
+   - Created charts showing the most common facility types
+   - Analyzed geographic distribution of facilities
 
-1. In your repository, click "Add file" and select "Create new file"
-2. Name it "projects/park-facilities-analysis.md"
-3. Add detailed content about your park facilities analysis project
-4. Commit the changes
-5. Repeat for each project
+4. **Insights and Findings**:
+   - Identified parks with the highest diversity of facilities
+   - Discovered patterns in facility distribution
+   - Analyzed accessibility of facilities across different neighborhoods
 
-## 5. Set Up GitHub Pages (Optional)
+**Tools and Technologies**:
+- AWS services for data processing and storage
+- Python for data analysis and visualization
+- Data visualization tools for creating interactive dashboards
 
-To create a web version of your portfolio:
+**Results**: The analysis provided valuable insights into the distribution and accessibility of park facilities in Vancouver, highlighting areas for potential improvement in facility allocation.
 
-1. Go to your repository settings
-2. Scroll down to "GitHub Pages" section
-3. Under "Source", select "main" branch
-4. Click "Save"
-5. Your portfolio will be published at: https://jakiyasultanaratri.github.io/data-analyst-portfolio/
+### 2. UCW Dummy Data Analysis
 
-## 6. Submit Your Portfolio
+#### Project Type: Descriptive Analysis
+**Objective**: Create and analyze dummy data to demonstrate data analysis techniques and methodologies.
 
-Once your portfolio is set up:
+**Methodology**:
+1. **Data Generation**:
+   - Created structured dummy data with relevant variables
+   - Ensured data reflected realistic patterns and relationships
 
-1. Go to your repository's main page
-2. Copy the URL (e.g., https://github.com/jakiyasultanaratri/data-analyst-portfolio)
-3. Submit this URL for your AWS assignment
+2. **Analysis Techniques**:
+   - Applied descriptive statistics to summarize key characteristics
+   - Identified trends and patterns in the generated data
+   - Demonstrated data visualization techniques
 
-## Example Structure of Your GitHub Repository
+**Tools and Technologies**:
+- AWS services for data processing
+- Python for data generation and analysis
+- Visualization tools for creating informative charts and graphs
 
-```
-data-analyst-portfolio/
-│
-├── README.md                  # Main portfolio page
-├── aws-academy-badge.png      # Your AWS certification badge
-│
-└── projects/                  # Detailed project documentation
-    ├── park-facilities-analysis.md
-    ├── ucw-dummy-data-analysis.md
-    ├── data-wrangling-project.md
-    └── data-quality-control.md
-```
+**Results**: Successfully demonstrated various data analysis techniques and methodologies using the generated dummy data.
 
-Remember to keep your portfolio updated with new projects and skills as you continue your learning journey!
+### 3. Data Wrangling Project
+
+#### Project Type: Data Wrangling
+**Objective**: Prepare and clean data for subsequent analysis by addressing data quality issues.
+
+**Methodology**:
+1. **Data Assessment**:
+   - Identified data quality issues such as missing values and inconsistencies
+   - Documented data types and formats
+
+2. **Data Cleaning**:
+   - Addressed missing values through appropriate imputation methods
+   - Standardized data formats and corrected inconsistencies
+
+3. **Data Transformation**:
+   - Converted data types to ensure compatibility
+   - Created derived features to enhance analysis possibilities
+
+**Tools and Technologies**:
+- AWS DataBrew for data preparation
+- Python scripts for custom data transformations
+- AWS S3 for data storage
+
+**Results**: Created a clean, consistent dataset ready for analytical use, significantly improving data quality and reliability.
+
+### 4. Data Quality Control Implementation
+
+#### Project Type: Data Quality Control
+**Objective**: Establish a framework for ensuring data quality and integrity in analytical processes.
+
+**Methodology**:
+1. **Quality Framework Design**:
+   - Developed data quality metrics and standards
+   - Created validation rules for data verification
+
+2. **Implementation**:
+   - Applied quality control measures to existing datasets
+   - Set up automated checks for ongoing data quality monitoring
+
+3. **Documentation**:
+   - Created comprehensive documentation for quality control processes
+   - Established guidelines for maintaining data quality
+
+**Tools and Technologies**:
+- AWS services for data quality monitoring
+- Custom scripts for validation and quality checks
+- Documentation tools for process standardization
+
+**Results**: Implemented a robust data quality control framework that ensures the reliability and accuracy of analytical outputs.
+
+## Certifications
+![AWS Academy Cloud Foundations Badge](https://raw.githubusercontent.com/jakiyasultanaratri/data-analyst-portfolio/main/aws-academy-badge.png)
+
+## Contact
+- **Email**: islamsultana920@gmail.com
+- **GitHub**: [github.com/jakiyasultanaratri](https://github.com/jakiyasultanaratri)
+
+---
+*This portfolio was created as part of the AWS Academy Cloud Foundations course assignment.*

@@ -38,7 +38,9 @@ The dataset contains 456 records covering a variety of facility types across Van
 ### 3. Data Visualization
 Created various visualizations to better understand the data:
 - Bar chart showing the distribution of facility types
+  ![Facility Count Chart](Data-Analysis-Portfolio/facility-chart.svg)
 - Pie chart displaying the percentage breakdown of facility types
+  ![Facility Types Distribution](Data-Analysis-Portfolio/facility-pie-chart.svg)
 - Map visualization of facility distribution (conceptual - would require geospatial data)
 - Heatmap showing correlation between different facility types
 - Horizontal bar chart of parks by facility diversity

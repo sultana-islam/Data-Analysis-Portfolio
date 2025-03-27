@@ -1,10 +1,16 @@
-# Data Wrangling for City of Vancouver Datasets
+# Data Wrangling for Customer Analytics at City of Vancouver
 
-## Project Overview
-This project focuses on data wrangling techniques applied to the City of Vancouver datasets. The primary goal was to transform raw, messy data into a clean, structured format suitable for analysis. The project demonstrates proficiency in data cleaning, transformation, and integration using AWS cloud services and data processing tools.
+## Project Title
+Data Wrangling for Enhanced Citizen Services Analytics using Vancouver Datasets
+
+## Objective
+The primary goal of this project was to perform comprehensive data wrangling to prepare robust datasets for customer/citizen analytics at the City of Vancouver. By cleaning, transforming, and consolidating data from various sources, the project aimed to enhance the accuracy and usability of city service data for subsequent analysis and reporting.
+
+## Background
+The City of Vancouver has accumulated data from multiple channels, including park facilities, neighborhood demographics, and community center usage. However, this data was often inconsistent, incomplete, or fragmented, making it challenging to derive meaningful insights about citizen service needs and usage patterns. Effective data wrangling facilitated better decision-making and more targeted service delivery strategies.
 
 ## Datasets
-The project worked with multiple datasets from the City of Vancouver Open Data Portal:
+The data wrangling process involved various datasets, including:
 
 1. **Park Facilities Data**: Information about recreational facilities in Vancouver parks
 2. **Neighborhood Demographics**: Population and demographic information for Vancouver neighborhoods
